@@ -139,7 +139,7 @@ class Latestphoto extends Component {
         let pagaf;
         let serchText;
         let likeimg = {
-            width:"10%",
+            width:"40%",
             
         
         }
@@ -209,8 +209,11 @@ class Latestphoto extends Component {
        backgroundSize:'cover' }} className="bgimg">
                                             <a href={photo.urls.full} rel="noopener noreferrer" target="_blank"><p>Show</p></a>
                                     </div>
-                                    <div className="text-right">
+                                    <div className="row">
+                                        <div className="col-8">by -{photo.user.first_name}</div>
+                                    <div className="col-4 text-right">
                                         <span><img src={img} style={likeimg}  alt=""/>  <p  style= {likes}> {photo.likes}</p></span>
+                                    </div>
                                     </div>
                                 </div>
                             </div>

@@ -14,7 +14,6 @@ function Footer() {
                                 <li><a  rel="noopener noreferrer" target="_blank" href="https://fb.com/cmmanik5">Youtube</a></li>
                                 <li><a  rel="noopener noreferrer" target="_blank" href="https://fb.com/cmmanik5">Twitter</a></li>
                                 <li><a  rel="noopener noreferrer" target="_blank" href="https://bd.linkedin.com/in/cmmanik" >Linkdin</a></li>
-                                
                             </ul>
                         </div>
                         <p className="copyright" > &copy; cmmanik5</p>
